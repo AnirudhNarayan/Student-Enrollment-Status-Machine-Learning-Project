@@ -40,13 +40,17 @@ This project provides a comprehensive machine learning solution for predicting s
 
 ```
 Student_Enrollment_Status/
-├── train.csv                    # Training dataset
-├── test.csv                     # Test dataset
-├── student_dropout_prediction.py # Complete Python script
+├── final_dropout_prediction.py  # Main Python script (complete solution)
+├── download_data.py             # Data download helper script
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # This file
-└── Project Code.ipynb           # Original notebook (fixed)
+├── PERFORMANCE_SUMMARY.md       # Detailed performance metrics
+├── .gitignore                   # Git ignore file
+├── submission_final.csv         # Best model predictions
+└── submission_ensemble.csv      # Ensemble model predictions
 ```
+
+**Note**: The large CSV data files (`train.csv`, `test.csv`) are not included in the repository due to size constraints. Use `download_data.py` to get sample data or download from Kaggle.
 
 ## Features
 
@@ -85,27 +89,40 @@ Student_Enrollment_Status/
 
 ## Installation
 
-1. **Clone or download the project files**
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/AnirudhNarayan/Student_Enrollment_Status.git
+   cd Student_Enrollment_Status
+   ```
 
 2. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Ensure your data files are in the project directory**:
-   - `train.csv` - Training dataset with features and labels
-   - `test.csv` - Test dataset with features only
+3. **Get the data files**:
+   ```bash
+   # Option 1: Download sample data for testing
+   python download_data.py
+   
+   # Option 2: Download from Kaggle
+   # Go to: https://www.kaggle.com/datasets/akshaydattatraykhare/student-dropout-prediction
+   # Download and extract train.csv and test.csv to this directory
+   ```
 
 ## Usage
 
-### Option 1: Run the Python Script
+### Run the Complete Analysis
 ```bash
-python student_dropout_prediction.py
+python final_dropout_prediction.py
 ```
 
-### Option 2: Run in Jupyter Notebook
-1. Open `Project Code.ipynb` in Jupyter
-2. Run all cells sequentially
+This will:
+- Load and analyze the data
+- Train multiple machine learning models
+- Perform cross-validation
+- Generate performance reports
+- Create submission files
 
 ## Dataset Information
 
