@@ -166,39 +166,7 @@ python final_dropout_prediction.py
 | **Incomplete Ensemble** | Unused voting classifier | Full ensemble implementation |
 | **No Cross-Validation** | Single train/test split | 5-fold cross-validation |
 
----
 
-## 🎓 Author
-
-**Anirudh Narayan** - Ph.D. Candidate in Biomedical Engineering at UMass Amherst
-
-- 🔬 **Research Focus**: Machine Learning & Computer Vision
-- 🧠 **Specialization**: Graph Neural Networks, Neuroimaging
-- 📚 **Publications**: Energy Storage (Wiley, Impact Factor: 3.6)
-- 🎯 **Career Goals**: FAANG/MAANG AI/ML Engineering
-
-**Connect**: [GitHub](https://github.com/AnirudhNarayan) | [LinkedIn](https://linkedin.com/in/anirudhnarayan)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-### **Suggested Improvements**
-- 🔧 Hyperparameter tuning with Optuna
-- 🚀 Deep learning models (Neural Networks)
-- 📊 Advanced feature engineering
-- 🎨 Enhanced visualizations
-- ⚡ Model deployment pipeline
-
----
 
 <div align="center">
 
